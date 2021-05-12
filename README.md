@@ -7,12 +7,15 @@ This is a socket-programming based application. The program is written in Python
 My initial attempt is to build a gift recommendation APP based on the 3-tier architecture. The current version builds TCP connections between multiple clients with the server. Meanwhile, the server will record useful information in the process of connection. For future development for this application, I will seperate the logic part (some machine learning algorithm to generate recommendation) from the database and add the presentation layer.
 
 ## To run
-1. Open a terminal window and run `python3 Server.py`.
-2. Open another terminal window and run `python3 Client.py` to build connection with the server.
-3. Choose either to Login(1) or Register(2).
-⋅⋅* Choose 1, input Email and Password.
-⋅⋅⋅⋅⋅* If the input email and password are correct and the account is not already online, then you are successfully logged in.
-⋅⋅⋅⋅⋅* If either email or password is invalid, then you will have to try again and you have three chances in total.
-⋅⋅* Choose 2, input requested information and the server will record the input information in the database.
-4. After logged in, you will input the person who you want to buy a guft for and the holiday.
-5. The server will reply if there is a matching answer.
+1. Open a terminal window and run `python3 homePage.py`.
+2. Click `Run Server`.
+3. Choose either `User Register` or `User Login`.
+  * Choose `User Register`, input Email and Password.
+      * Email must be in a valid format.
+      * Password cannot be empty or a space.
+  * Choose `User Login`, input requested information and the server will record the input information in the database.
+      * If the input email and password are correct and the account is not already online, then you are successfully logged in.
+      * If either email or password is invalid, then you will have to try again and you have three chances in total.
+5. After logged in, you will choose a holiday, which helps the system to narrow the range of gift recommendation.
+6. The server will reply if there is a matching answer from the current dataset. (This step will be handled by some machine learning algorithm in the future development)
+7. After making choice, you can log out by clicking `Logout`.
