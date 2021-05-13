@@ -1,5 +1,7 @@
 # CS396 Final Project
-Answer to the final project for CSCI 396 - Computer Networks
+Final project for CSCI 396 - Computer Networks
+
+Author: Jiarong Li
 
 ## Introduction
 This is a socket-programming based application. The program is written in Python3 and run on Mac.
