@@ -21,3 +21,6 @@ My initial attempt is to build a gift recommendation APP based on the 3-tier arc
 5. After logged in, you will choose a holiday, which helps the system to narrow the range of gift recommendation.
 6. The server will reply if there is a matching answer from the current dataset. (This step will be handled by some machine learning algorithm in the future development)
 7. After making choice, you can log out by clicking `Logout` or keep choosing holiday by clickig `Choose Holiday`.
+
+## Collected Data
+All user information will be recorded in `database/userList.csv`.
