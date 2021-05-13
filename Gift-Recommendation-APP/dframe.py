@@ -50,7 +50,7 @@ def logout(email):
     df.to_csv(path+'/userList.csv')
 
 def add_holiday(holiday,email):
-    if validEmail(email):
+    if validEmail(email) and str(holiday) != '':
         df=pd.read_csv(path+'/userList.csv')
         df=df[['Email','Name','Gender','State','City','Passw','Online', 'Holiday']]
         for index, row in df.iterrows():

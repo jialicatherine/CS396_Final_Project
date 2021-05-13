@@ -1,2 +1,5 @@
 ,Email,Name,Gender,State,City,Passw,Online,Holiday
-0,jiali@reed.edu,jiarong,Female,OR,Portland,123456,0,"graduation,birthday,christmas,halloween"
+0,jiali@reed.edu,jiarong,Female,or,portland,123456,0,"graduation,birthday,christmas,halloween"
+1,qwe@gmail.com,qwe,female,or,portland,123,0,"halloween,valentine,"
+2,here@gmail.com,here,male,or,portland,123,0,"christmas,"
+3,joy@gmail.com,joy,transgender,or,portland,123,0,"halloween,graduation,birthday,christmas,valentine"

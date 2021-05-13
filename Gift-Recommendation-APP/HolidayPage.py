@@ -9,11 +9,12 @@ def chooseHoliday(root,frame1,holiday,client_socket):
     client_socket.send(holiday.encode()) 
 
     message = client_socket.recv(1024) #Success message
-    message = message.decode()
-    if(message=="Successful"):
+    message = (message.decode()).split(' ')
+    if(message[0]=="Successful"):
+        rec = ' '.join(message[1:])
         Label(frame1, text="Holiday Successfully Chosen", font=('Helvetica', 18, 'bold')).grid(row = 1, column = 1)
         frame3 = root.winfo_children()[0]
-        recPage.recPg(root,frame1,frame3,holiday,client_socket)
+        recPage.recPg(root,frame1,frame3,rec,client_socket)
     else:
         text = "Server Error... \nTry again..."
         msg = Message(frame1, text=text, width=500)
