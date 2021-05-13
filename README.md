@@ -18,4 +18,4 @@ My initial attempt is to build a gift recommendation APP based on the 3-tier arc
       * If either email or password is invalid, then you will have to try again and you have three chances in total.
 5. After logged in, you will choose a holiday, which helps the system to narrow the range of gift recommendation.
 6. The server will reply if there is a matching answer from the current dataset. (This step will be handled by some machine learning algorithm in the future development)
-7. After making choice, you can log out by clicking `Logout`.
+7. After making choice, you can log out by clicking `Logout` or keep choosing holiday by clickig `Choose Holiday`.
