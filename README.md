@@ -6,7 +6,7 @@ Author: Jiarong Li
 ## Introduction
 This is a socket-programming based application. The program is written in Python3 and run on Mac.
 
-My initial attempt is to build a gift recommendation APP based on the 3-tier architecture. The current version builds TCP connections between multiple clients with the server. Meanwhile, the server will record useful information in the process of connection. For future development for this application, I will seperate the logic part (some machine learning algorithm to generate recommendation) from the database and add the presentation layer.
+My initial attempt is to build a gift recommendation APP based on the 3-tier architecture. The current version builds TCP connections between multiple clients with the server. Meanwhile, the server will record useful user information in the process of connection. For future development for this application, I will add the logic layer (some machine learning algorithm to generate recommendation from the database) and maybe try to use federated learning.
 
 ## To run
 1. Open a terminal window and run `python3 homePage.py`.
