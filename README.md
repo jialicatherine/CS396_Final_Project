@@ -1,4 +1,4 @@
-# CS396 Final Project
+# Gift Recommendation APP
 Final project for CSCI 396 - Computer Networks
 
 Author: Jiarong Li
